@@ -38,6 +38,6 @@ let compactObject = function(obj){
 
 console.log(compactObject({a: 1, b: 0, c: false})); // {a: 1}
 console.log(compactObject([null, 0, false, 1])); // {a: 1}
-console.log(compactObject([null, 0, 5, [0], [false, 16]])); // {a: 1}
+console.log(compactObject([null, 0, 5, [0], [false, 16],,{a: {} }])); // {a: 1}
 
 
